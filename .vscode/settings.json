@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/jaime/.platformio/penv/bin:/home/jaime/.platformio/penv:/home/jaime/.sdkman/candidates/maven/current/bin:/home/jaime/.sdkman/candidates/gradle/current/bin:/home/jaime/.local/bin:/home/jaime/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/jaime/RetDec/bin:/home/jaime/opt/node-v10.16.0-linux-x64/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
