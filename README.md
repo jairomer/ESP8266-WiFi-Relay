@@ -53,4 +53,4 @@ The system reacts to two messages or orders published on topic ```wifi-rele/<n>/
 
 - [NTP docs](https://lastminuteengineers.com/esp8266-ntp-server-date-time-tutorial/)
 - [Enabling TLS on ESP8266](https://raphberube.com/blog/2019/02/18/Making-the-ESP8266-work-with-AWS-IoT.html)
-- [ESP8266 ans an IoT endpoint with encrypted mqtt transport](https://blog.thewalr.us/2019/03/27/using-esp8266-as-an-iot-endpoint-with-encrypted-mqtt-transport/)
+- [ESP8266 and an IoT endpoint with encrypted mqtt transport](https://blog.thewalr.us/2019/03/27/using-esp8266-as-an-iot-endpoint-with-encrypted-mqtt-transport/)
