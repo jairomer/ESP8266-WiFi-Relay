@@ -26,15 +26,15 @@ However, TLS encryption and broker authentication were also desirable to provide
 
 Messages are propagated over two topics with the format ```wifi-rele/<n>/<x>```, where n is the number ID of a specific device and x is either 'r' or 'w': 
 
-a. ```wifi-rele/<n>/r```: 
+a. ```wifi-relay/<n>/r```: 
     - As an only subscription topic. 
     - Orders to device are received through this topic from the device controller. 
 
-b. ```wifi-rele/<n>/w```:
+b. ```wifi-relay/<n>/w```:
     - As an only publishing. 
     - Used to publish device status and log messages. 
 
-The system reacts to two messages or orders published on topic ```wifi-rele/<n>/r```:
+The system reacts to two messages or orders published on topic ```wifi-relay/<n>/r```:
 - `OPEN` To open the relay and cut the AC current. 
 - `CLOSE` To close the relay and activate AC current. 
 
